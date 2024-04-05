@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hCv-Qj-7fn">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -16,21 +17,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dGy-f4-GIX">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6mP-RQ-3Sx">
+                                <rect key="frame" x="0.0" y="118" width="393" height="734"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="dGy-f4-GIX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="89r-ig-4qh"/>
-                            <constraint firstAttribute="bottom" secondItem="dGy-f4-GIX" secondAttribute="bottom" id="El8-PS-XfO"/>
-                            <constraint firstAttribute="trailing" secondItem="dGy-f4-GIX" secondAttribute="trailing" id="NLe-p6-Nti"/>
-                            <constraint firstAttribute="bottom" secondItem="dGy-f4-GIX" secondAttribute="bottom" id="Sd4-oP-uhQ"/>
-                            <constraint firstItem="dGy-f4-GIX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UNT-te-VS7"/>
-                            <constraint firstItem="dGy-f4-GIX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="YZy-hM-Jc2"/>
-                            <constraint firstAttribute="trailing" secondItem="dGy-f4-GIX" secondAttribute="trailing" id="sAf-78-jdU"/>
-                            <constraint firstItem="dGy-f4-GIX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="wJf-cw-h5g"/>
+                            <constraint firstItem="6mP-RQ-3Sx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GME-RN-C2v"/>
+                            <constraint firstItem="6mP-RQ-3Sx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="In0-TE-wgt"/>
+                            <constraint firstAttribute="trailing" secondItem="6mP-RQ-3Sx" secondAttribute="trailing" id="oLm-tH-7Kk"/>
+                            <constraint firstAttribute="bottom" secondItem="6mP-RQ-3Sx" secondAttribute="bottom" id="opL-HG-TwG"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rf4-5S-93R">
@@ -40,9 +37,6 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <outlet property="imageView" destination="dGy-f4-GIX" id="nrX-le-YQB"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -56,6 +50,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="iiE-zF-9sj">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.021821913110000001" green="0.995554626" blue="0.59179485300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -64,7 +59,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w9m-Gx-7V8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="101.5267175572519" y="4.9295774647887329"/>
+            <point key="canvasLocation" x="187" y="-290"/>
         </scene>
     </scenes>
     <resources>
